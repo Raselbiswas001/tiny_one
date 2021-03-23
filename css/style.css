@@ -1,0 +1,180 @@
+/*common start*/
+body{
+    font-family: PTC55F-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #010101;
+    line-height: 1.5;
+}
+.c_p{
+	color: #555555;
+    letter-spacing: 1px;
+}
+.s_p{
+    color: #898989;
+}
+
+/*common end*/
+
+/*fonts*/
+@font-face{
+    src: url(../font/PTC55F.ttf);
+    font-family: PTC55F-Regular;
+
+}
+font-face{
+    src: url(../font/PTN77F.ttf);
+    font-family: PTN77F-Bold;
+}
+/*fonts*/
+/*header start*/
+header{
+	background-color: #fcdb00;
+    padding: 20px 0;
+	
+}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-weight: 700;
+    font-size: 22px;
+    color: #010101 !important;
+    padding: 0 40px !important;
+}
+.menu ul li a:hover{
+	color: #fff !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+    background-color: #fcdb00;
+    padding-bottom: 100px;
+}
+.s_ci {
+    bottom: -80px;
+    
+}
+.s_ci [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}
+.s_ci .active {
+    opacity: 1;
+}
+.s_content{
+    margin-top: 70px;
+}
+.s_content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.s_content h2 {
+    margin: 20px 0 25px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+   
+}
+.s_icon{
+    margin-top: 30px;
+}
+.s_icon li i{
+    font-size: 42px;
+    margin-right: 30px;
+}
+.s_img{}
+.s_img img{}
+/*slider end*/
+/*features start*/
+.feature{
+    padding: 100px 0;
+}
+.f_c{
+
+}
+.f_c h1{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.f_c p{
+    color: #313841;
+
+}
+.f_m{
+    margin: 60px 0;
+}
+.c_d{
+    border: none;
+}
+.c_i{}
+.c_i span{}
+.c_i span i {
+    font-size: 50px;
+    padding: 20px 0;
+}
+.c_t p{
+     color: #898989;
+}
+.c_t h5{
+    font-size: 22px;
+}
+/*features end*/
+/*submit start*/
+.submit{
+    padding: 100px 0 10px;
+    background-color: #000000;
+}
+.c_c {
+    color: #fcdb00;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.m_t{
+    margin-top: 40px;
+}
+
+.e_m{
+    margin-left: 50px;
+
+}
+.btn_c{
+    background-color: #fcdb00;
+    padding: 6px 20px;
+}
+/*submit end*/
+/*footer start*/
+.footer{
+    background-color: #000000;
+}
+.f_icon{
+    margin-top: 60px;
+}
+.f_icon ul li {
+    font-size: 42px;
+    color: #fcdb00;
+    margin-right: 30px;
+}
+.f_icon ul li i{
+        margin-right: 30px;
+}
+
+.f_p{
+
+}
+.fc_p{
+    color: #ffffff;
+    padding: 100px 0;
+}
+/*footer end*/
