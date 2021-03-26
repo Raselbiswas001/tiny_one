@@ -1,4 +1,5 @@
 /*common start*/
+/*common start*/
 body{
     font-family: PTC55F-Regular;
     font-weight: 400;
@@ -94,44 +95,57 @@ header{
 /*slider end*/
 /*features start*/
 .feature{
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 120px;
 }
 .f_c{
-
+   
 }
 .f_c h1{
+    margin: 0 0 15px;
     font-weight: 700;
     font-size: 32px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    
 }
-.f_c p{
+.f_c p {
+    margin: 0;
     color: #313841;
+    font-size: 20px;
+}
+.f_item{
+    margin-top: 60px;
+}
+.f-icon {
+    
+}
+.f-icon  i{
+    font-size: 50px;
+    
+}
+.f-content{
 
 }
-.f_m{
-    margin: 60px 0;
-}
-.c_d{
-    border: none;
-}
-.c_i{}
-.c_i span{}
-.c_i span i {
-    font-size: 50px;
-    padding: 20px 0;
-}
-.c_t p{
+.f-content p{
      color: #898989;
 }
-.c_t h5{
+
+.f_h2 {
+    margin-bottom: 15px;
     font-size: 22px;
+    font-weight: 400;
 }
 /*features end*/
-/*submit start*/
-.submit{
-    padding: 100px 0 10px;
+/*contact start*/
+.contact{
+    padding-top: 100px;
+    padding-bottom: 120px;
     background-color: #000000;
+}
+.yellow{
+   color: #fcdb00;
+}
+.s-p{
+    color: #898989;
 }
 .c_c {
     color: #fcdb00;
@@ -143,38 +157,65 @@ header{
 
 .m_t{
     margin-top: 40px;
+    margin-bottom: 60px;
 }
-
+.c_form{
+   height: 50px;
+   width: 100%;
+   font-family: PTC55F-Regular;
+   font-weight: 400;
+   font-size: 16px;
+   color: #898989;
+   border: none; 
+}
+.c_form:focus{
+    outline: 0;
+    box-shadow: none;
+}
 .e_m{
     margin-left: 50px;
 
 }
 .btn_c{
     background-color: #fcdb00;
-    padding: 6px 20px;
+    height: 50px;
+    width: 100%;
+    font-family: PTC55F-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #898989;
+    text-transform: uppercase;
 }
-/*submit end*/
-/*footer start*/
-.footer{
-    background-color: #000000;
+.btn_c:focus{
+    outline: 0;
+    box-shadow: none;
 }
-.f_icon{
-    margin-top: 60px;
+.btn_c:hover{
+    color: #898989;
+    background-color: #fff;
 }
-.f_icon ul li {
+.c_icon{
+    
+}
+.c_icon ul li {
     font-size: 42px;
     color: #fcdb00;
     margin-right: 30px;
 }
-.f_icon ul li i{
+.c_icon ul li i{
         margin-right: 30px;
 }
 
-.f_p{
 
+/*contact end*/
+/*footer start*/
+footer{
+    background-color: #000000;
+    padding-bottom: 100px;
 }
+
 .fc_p{
     color: #ffffff;
-    padding: 100px 0;
+    
 }
 /*footer end*/
