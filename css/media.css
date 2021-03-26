@@ -1,147 +1,4 @@
 
- /*Extra small devices (portrait phones, less than 576px)*/
- @media (max-width: 575.98px) { 
- 	/*header*/
- 	.menu ul li a {
- 		font-size: 18px;
- 		padding: 5px 0 !important;
- 		text-align: right;
- 	}
-/*slider   */
-.slider {
-	padding-bottom: 80px;
-}
-.s_content {
-	margin-top: 10px;
-}
-.s_content h1 {
-    font-size: 25px;
-    
-}
-.s_content h2 {
-	margin: 10px 0 15px;
-    font-size: 18px;
-}
-.s_icon li i {
-    font-size: 35px;
-    margin-right: 15px;
-}
-.s_ci [data-bs-target] {
-    width: 12px;
-    height: 12px;
-   
-}
-/*feature*/
-.feature {
-    padding: 80px 0;
-}
-.f_c h1 {
-    font-weight: 700;
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-.f_m {
-    margin: 10px 0;
-}
-.c_i span i {
-    font-size: 35px;
-    padding: 10px 0;
-    margin-left: 18px;
-}
-.c_t h5 {
-    font-size: 20px;
-}
-.c_b {
-    padding: 5px 1rem;
-}
-/*submit*/
-.submit {
-    padding: 80px 0 10px;
-
-}
-.c_c {
-    font-size: 25px;
-    
-}
-.e_m {
-    margin-left: 0;
-}
-.m_t {
-    margin-top: 10px;
-}
-/*footer*/
-.fc_p {
-    padding: 50px 0;
-}
-
-}
-
-
-
-
- /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-	 	/*header*/
-	.menu ul li a {
-		font-size: 18px;
-		padding: 5px 0 !important;
-		text-align: right;
-}
-/*slider   */
-.slider {
-	padding-bottom: 80px;
-}
-.s_content {
-	margin-top: 10px;
-}
-.s_content h2 {
-	margin: 10px 0 15px;
-
-}
-.s_icon li i {
-    font-size: 35px;
-    margin-right: 15px;
-}
-.s_ci [data-bs-target] {
-    width: 12px;
-    height: 12px;
-   
-}
-/*feature*/
-.feature {
-    padding: 80px 0;
-}
-.f_m {
-    margin: 20px 0;
-}
-.c_i span i {
-    font-size: 40px;
-    padding: 17px 0;
-}
-.c_t h5 {
-    font-size: 20px;
-}
-/*submit*/
-.submit {
-    padding: 80px 0 10px;
-
-}
-
-.e_m {
-    margin-left: 30px;
-}
-.m_t {
-    margin-top: 20px;
-}
-/*footer*/
-.fc_p {
-    padding: 80px 0;
-}
-
-}
-
- /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 	/*header*/
 	.menu ul li a {
@@ -153,13 +10,27 @@
     margin-top: 20px;
 }
 /*features*/
-.f_m {
-    margin: 40px 0;
+.feature {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.f_item {
+    margin-top: 50px;
+}
+.f-icon  i {
+    font-size: 40px;
 }
 /*submit*/
 .m_t {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
+.contact {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+
  }
 
  
